@@ -1,6 +1,11 @@
 <html>
   <head>
     <title>Hello World!</title>
+    <script>
+      function changeColor(){
+        document.getElementById("button1").style.color="black";
+      }
+    </script>
     <style>
       body{
         background-color:orange;
@@ -11,6 +16,7 @@
   <body>
     <div id="intro" style="color:blue;">
        Hello!
+      <input type="button" id="button1" value="Click Me!"/>
     </div>
     <div id="content" style="color:red;">
       Hello, it's me, I was wondering
