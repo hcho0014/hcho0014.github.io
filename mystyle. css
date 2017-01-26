@@ -1,0 +1,21 @@
+body{
+	background-color:orange;
+	text-align:center;
+}
+#container{
+	background-color:white;
+	margin:50px;
+	border-radius:25px;
+	padding:10px;
+}
+#greetings{
+	color: blue;
+
+}
+#content{
+	color:red;
+}
+
+img{
+	height:300px;
+}
