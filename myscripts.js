@@ -4,7 +4,7 @@ function getNumbers(){
   operand1=Math.floor(Math.random()*50)+1;
   operand2=Math.floor(Math.random()*50)+1;
   document.getElementById("operand1").innerHTML=operand1;
-  document.getElementById("operand1").innerHTML=operand2;
+  document.getElementById("operand2").innerHTML=operand2;
   document.getElementById("userAnswer").innerHTML="";
 }
 
