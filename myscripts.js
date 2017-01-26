@@ -8,7 +8,7 @@ function getNumbers(){
   document.getElementById("userAnswer").innerHTML="";
 }
 
-function checkAnswers(){
+function checkAnswer(){
   var userSum = document.getElementById("userAnswer").value;
   var sum= operand1+operand2;
   if(userSum==sum){
