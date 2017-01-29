@@ -21,7 +21,7 @@ function checkAnswer(){
 }
 var operand3;
 var operand4;
-function getNumbers(){
+function getNumbers2(){
   operand3=Math.floor(Math.random()*50)+1;
   operand4=Math.floor(Math.random()*50)+1;
   document.getElementById("operand3").innerHTML=operand3;
