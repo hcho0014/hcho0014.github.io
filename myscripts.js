@@ -40,3 +40,24 @@ function checkAnswer2(){
   }
     
 }
+var operand5;
+var operand6;
+function getNumbers3(){
+  operand5=Math.floor(Math.random()*50)+1;
+  operand6=Math.floor(Math.random()*50)+1;
+  document.getElementById("operand5").innerHTML=operand5;
+  document.getElementById("operand6").innerHTML=operand6;
+  document.getElementById("userAnswer3").innerHTML="";
+}
+
+function checkAnswer2(){
+  var userProduct = document.getElementById("userAnswer3").value;
+  var product= operand3*operand4;
+  if(userProduct==product){
+    document.getElementById("results3").innerHTML="Correct!";
+  }
+  else{
+    document.getElementById("results3").innerHTML="Wrong!";
+  }
+    
+}
