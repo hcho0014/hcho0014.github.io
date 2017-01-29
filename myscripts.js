@@ -50,7 +50,7 @@ function getNumbers3(){
   document.getElementById("userAnswer3").innerHTML="";
 }
 
-function checkAnswer3(){
+function checkAnswer5(){
   var userpee = document.getElementById("userAnswer3").value;
   var pee= operand3*operand4;
   if(userpee==pee){
