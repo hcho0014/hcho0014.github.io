@@ -19,3 +19,24 @@ function checkAnswer(){
   }
     
 }
+var operand3;
+var operand4;
+function getNumbers(){
+  operand3=Math.floor(Math.random()*50)+1;
+  operand4=Math.floor(Math.random()*50)+1;
+  document.getElementById("operand3").innerHTML=operand3;
+  document.getElementById("operand3").innerHTML=operand3;
+  document.getElementById("userAnswer").innerHTML="";
+}
+
+function checkAnswer2(){
+  var userProduct = document.getElementById("userAnswer2").value;
+  var product= operand3*operand4;
+  if(userProduct==product){
+    document.getElementById("results").innerHTML="Correct!";
+  }
+  else{
+    document.getElementById("results").innerHTML="Wrong!";
+  }
+    
+}
