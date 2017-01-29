@@ -25,8 +25,8 @@ function getNumbers2(){
   operand3=Math.floor(Math.random()*50)+1;
   operand4=Math.floor(Math.random()*50)+1;
   document.getElementById("operand3").innerHTML=operand3;
-  document.getElementById("operand3").innerHTML=operand3;
-  document.getElementById("userAnswer").innerHTML="";
+  document.getElementById("operand4").innerHTML=operand4;
+  document.getElementById("userAnswer2").innerHTML="";
 }
 
 function checkAnswer2(){
