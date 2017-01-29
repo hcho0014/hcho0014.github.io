@@ -26,6 +26,49 @@ img{
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
+	color: blue;
+	text-align: center;
 }
+#flashCards2{
+	font-family: fantasy;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: blue;
+	text-align: center;
+}
+#flashCards3{
+	font-family: fantasy;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: blue;
+	text-align: center;
+}
+#flashCards4{
+	font-family: fantasy;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: blue;
+	text-align: center;
+}
+#HARRISON{
+	 font-family: "Times New Roman", Times, serif;
+   height: 200px;
+   width: 50%;
+   background-color: powderblue;
+	 text-align: justify;
+	 text-decoration: underline;
+	 color:#00FF00;
+
+}
+
 
 
