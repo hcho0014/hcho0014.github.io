@@ -50,10 +50,10 @@ function getNumbers3(){
   document.getElementById("userAnswer3").innerHTML="";
 }
 
-function checkAnswer2(){
-  var userProduct = document.getElementById("userAnswer3").value;
-  var product= operand3*operand4;
-  if(userProduct==product){
+function checkAnswer3(){
+  var userpee = document.getElementById("userAnswer3").value;
+  var pee= operand3*operand4;
+  if(userpee==pee){
     document.getElementById("results3").innerHTML="Correct!";
   }
   else{
