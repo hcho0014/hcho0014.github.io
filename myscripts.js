@@ -64,8 +64,8 @@ function checkAnswer5(){
 var operand7;
 var operand8;
 function getNumbers4(){
-  operand7=Math.floor(Math.random()*50)+1;
-  operand8=Math.floor(Math.random()*50)+1;
+  operand7=Math.floor(Math.random()*200)+1;
+  operand8=Math.floor(Math.random()*10)+1;
   document.getElementById("operand7").innerHTML=operand7;
   document.getElementById("operand8").innerHTML=operand8;
   document.getElementById("userAnswer4").innerHTML="";
