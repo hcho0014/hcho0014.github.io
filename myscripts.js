@@ -33,10 +33,10 @@ function checkAnswer2(){
   var userProduct = document.getElementById("userAnswer2").value;
   var product= operand3*operand4;
   if(userProduct==product){
-    document.getElementById("results").innerHTML="Correct!";
+    document.getElementById("results2").innerHTML="Correct!";
   }
   else{
-    document.getElementById("results").innerHTML="Wrong!";
+    document.getElementById("results2").innerHTML="Wrong!";
   }
     
 }
