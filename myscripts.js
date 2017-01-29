@@ -52,12 +52,33 @@ function getNumbers3(){
 
 function checkAnswer5(){
   var userpee = document.getElementById("userAnswer3").value;
-  var pee= operand3*operand4;
+  var pee= operand5-operand6;
   if(userpee==pee){
     document.getElementById("results3").innerHTML="Correct!";
   }
   else{
     document.getElementById("results3").innerHTML="Wrong!";
+  }
+    
+}
+var operand7;
+var operand8;
+function getNumbers4(){
+  operand7=Math.floor(Math.random()*50)+1;
+  operand8=Math.floor(Math.random()*50)+1;
+  document.getElementById("operand7").innerHTML=operand7;
+  document.getElementById("operand8").innerHTML=operand8;
+  document.getElementById("userAnswer4").innerHTML="";
+}
+
+function checkAnswer4(){
+  var userp009 = document.getElementById("userAnswer4").value;
+  var p009= operand7/operand8;
+  if(userp009==p009){
+    document.getElementById("results4").innerHTML="Correct!";
+  }
+  else{
+    document.getElementById("results4").innerHTML="Wrong!";
   }
     
 }
