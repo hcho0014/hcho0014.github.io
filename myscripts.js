@@ -89,15 +89,15 @@ var pics = ["http://ewbcit.caltech.edu/Images/caltechLogo.gif",
 var picIndex=0;
 function goLeft(){
   if(picIndex>0){
-    document.getElementById("pic").src=pics[picIndex];
     picIndex=picIndex-1
+    document.getElementById("pic").src=pics[picIndex];
     console.log(picIndex);
   }
 }
 function goRight(){
   if(picIndex<(pics.length-1)){
-    document.getElementById("pic").src=pics[picIndex];
     picIndex=picIndex+1
+    document.getElementById("pic").src=pics[picIndex];
     console.log(picIndex);
   }
 }
