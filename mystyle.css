@@ -15,9 +15,26 @@ body{
 #content{
 	color:red;
 }
-
-img{
+#gallery{
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
 	height:300px;
+	margin-top:25px;
+	
+}
+
+#left{
+	float:left;
+}
+#middle{
+	float:center;
+}
+#right{
+	float:right;
+}
+img{
+	width:300px;
 }
 #flashCards{
 	font-family: fantasy;

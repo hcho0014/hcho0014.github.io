@@ -82,3 +82,22 @@ function checkAnswer4(){
   }
     
 }
+
+var pics = ["http://ewbcit.caltech.edu/Images/caltechLogo.gif",
+           "http://www.gg.caltech.edu/Images/BI-i.gif",
+           "http://www.einstein.caltech.edu/images/slideshow/1.jpg"];
+var picIndex=0;
+function goLeft(){
+  if(picIndex>0){
+    document.getElementById("pic").src=pics[picIndex];
+    picIndex=picIndex-1
+    console.log(picIndex);
+  }
+}
+function goRight(){
+  if(picIndex<(pics.length-1)){
+    document.getElementById("pic").src=pics[picIndex];
+    picIndex=picIndex+1
+    console.log(picIndex);
+  }
+}

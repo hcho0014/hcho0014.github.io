@@ -1,0 +1,27 @@
+<html>
+  <head>
+     <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="myscripts.js"></script>
+  </head>
+  <body>
+    <div id= "container">
+	    <div id="navigation">
+		  <a href="index.html"> Home </a> |
+		  <a href="aboutme.html">About Me</a> |
+      <a href="projects.html">Projects</a>
+      </div>
+      <div id="gallery">
+        <div id="left">
+          <input type="button" value="<----" onclick="goLeft()"/>
+        </div>
+        <div id="middle">
+          <img id="pic" src="http://www.gg.caltech.edu/Images/BI-i.gif"/>
+        </div>
+        <div id="right">
+           <input type="button" value="---->" onclick="goRight()"/>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
