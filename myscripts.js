@@ -1,3 +1,27 @@
+var character="";
+
+function chooseX(){
+  character="X"
+}
+function chooseO(){
+  character="O"
+}
+
+function makeMove(divLocation){
+  var inside= document.getElementById(divLocation).innerHTML;
+
+
+  if(insideDiv===""){
+    document.getElementById(divLocation).innerHTML=character;
+    document.getElementById("notes").innerHTML=""
+  }
+  else{
+    document.getElementById("notes").innerHTML="Already made a move here "+"<p>Try another spot!</p>";
+  }
+  if(checkWinner()){
+    document.getElementById("notes").innerHTML=character+"wins!";
+  }
+}
 var operand1;
 var operand2;
 function getNumbers(){
@@ -104,3 +128,4 @@ function goRight(){
     console.log(picIndex);
   }
 }
+
