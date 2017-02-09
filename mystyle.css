@@ -25,16 +25,22 @@ body{
 }
 
 #left{
-	float:left;
+	position: absolute; top:180px; left:480px; width:200px; height:25px;
+
+
+
 }
 #middle{
 	float:center;
 }
+
 #right{
-	float:right;
+	position: absolute; top:180px; left:850px; width:200px; height:25px;
 }
+
 img{
 	width:300px;
+	position: relative
 }
 #flashCards{
 	font-family: fantasy;
@@ -86,6 +92,3 @@ img{
 	 color:#00FF00;
 
 }
-
-
-
