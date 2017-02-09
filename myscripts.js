@@ -85,7 +85,10 @@ function checkAnswer4(){
 
 var pics = ["http://ewbcit.caltech.edu/Images/caltechLogo.gif",
            "http://www.gg.caltech.edu/Images/BI-i.gif",
-           "http://www.einstein.caltech.edu/images/slideshow/1.jpg"];
+           "http://www.einstein.caltech.edu/images/slideshow/1.jpg",
+           "http://s3.foxmovies.com/foxmovies/production/films/104/images/gallery/martian-gallery3-gallery-image.jpg",
+           "http://s3.foxmovies.com/foxmovies/production/films/104/images/gallery/martian-gallery3-gallery-image.jpg",
+           "http://www.jpl.nasa.gov/infographics/uploads/infographics/full/10743.png"];
 var picIndex=0;
 function goLeft(){
   if(picIndex>0){
