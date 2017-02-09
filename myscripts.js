@@ -1,27 +1,29 @@
 var character="";
 
 function chooseX(){
-  character="X"
+  character="X";
 }
+
 function chooseO(){
-  character="O"
+  character="O";
 }
 
 function makeMove(divLocation){
-  var inside= document.getElementById(divLocation).innerHTML;
+  var insideDiv= document.getElementById(divLocation).innerHTML;
 
 
-  if(insideDiv===""){
+  if(insideDiv === ""){
     document.getElementById(divLocation).innerHTML=character;
-    document.getElementById("notes").innerHTML=""
+    document.getElementById("notes").innerHTML="";
   }
   else{
     document.getElementById("notes").innerHTML="Already made a move here "+"<p>Try another spot!</p>";
   }
   if(checkWinner()){
-    document.getElementById("notes").innerHTML=character+"wins!";
+    document.getElementById("notes").innerHTML=character+" wins!";
   }
 }
+
 var operand1;
 var operand2;
 function getNumbers(){
