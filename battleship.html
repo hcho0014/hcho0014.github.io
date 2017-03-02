@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Battleship</title>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="battleship.css">
     <script src="myscripts.js"></script>
   </head>
   <body>
@@ -11,7 +11,7 @@
         <a href="aboutme.html">About Me</a> |
         <a href="projects.html">Projects</a>
      </div>
-     <div id="game2">
+     <div id="game">
 				<div id="players2">
 						<input type="button" value="00" onclick="choose2()"/>
 						<input type="button" value="000" onclick="choose3()"/>
@@ -24,7 +24,7 @@
                The O is the bullet for your bullet board that is on the top.
 						</p>
 				</div>
-      				<div id="board2">
+      	<div class="boards">
 					<div>
 						<div class="box" id="row1col1" onclick="makeMove('row1col1')"></div>
 						 <div class="box" id="row1col2" onclick="makeMove('row1col2')"></div>
@@ -153,13 +153,8 @@
             
 					</div>
 				</div>
-       <div>
-         ---------------------------------------------------------------------------
-       </div>
-       <div>
-         ---------------------------------------------------------------------------
-       </div>
-          <div id="board3">
+
+          <div class="boards">
 					<div>
 						<div class="box" id="row1col1" onclick="makeMove('row1col1')"></div>
 						 <div class="box" id="row1col2" onclick="makeMove('row1col2')"></div>
