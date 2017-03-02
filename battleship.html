@@ -11,18 +11,19 @@
         <a href="aboutme.html">About Me</a> |
         <a href="projects.html">Projects</a>
      </div>
+
      <div id="game">
-				<div id="players2">
+       <h1>
+        Your ships
+      </h1>
+				<div id="players">
 						<input type="button" value="00" onclick="choose2()"/>
 						<input type="button" value="000" onclick="choose3()"/>
-            <input type="button" value="0000" onclick="choose4()"/>'
+            <input type="button" value="000" onclick="choose3()"/>
+            <input type="button" value="0000" onclick="choose4()"/>
             <input type="button" value="00000" onclick="choose5()"/>
-            <input type="button" value="O" onclick="chooseO()"/>
+            
            
-						<p id="notes">
-							 There is one length 2 ship, two length 3 ships, one length 4 ship, and one length 5 ship.
-               The O is the bullet for your bullet board that is on the top.
-						</p>
 				</div>
       	<div class="boards">
 					<div>
@@ -152,7 +153,13 @@
              <div class="box" id="row10col10" onclick="makeMove('row10col10')"></div>
             
 					</div>
-				</div>
+       </div>
+       <div>
+         <h1>
+           Make your guesses
+         </h1>
+         <input type="button" value="O" onclick="chooseO()"/>
+       </div>
 
           <div class="boards">
 					<div>
