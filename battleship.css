@@ -1,7 +1,14 @@
+#pto{
+	float:left;
+}
+#ptt{
+	float:right;
+}
+
 .box{
 	border-style:solid;
-	width:50px;
-	height:50px;
+	width:30px;
+	height:30px;
 	float:left;
 	text-align:center;
 	line-height:50px;
@@ -13,10 +20,10 @@
 }
 
 .boards{
-  margin-bottom:100px;
+  margin-bottom:30px;
   padding:15px;
-  width:600px;
-	height:550px;
+  width:380px;
+	height:500px;
 }
 
 #board{
@@ -25,14 +32,15 @@
 }
 #game{
   border-style:solid;
-	width:600px;
-	height:1300px;
+	width:900px;
+	height:600px;
 	padding:50px;
 	margin-left:auto;
 	margin-right:auto;
 	background-color:blue;
 	border-radius:25px;
 	margin-bottom:25px;
+	margin-top: 25px;
 }
 body{
 	background-color:orange;
