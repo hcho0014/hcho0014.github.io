@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="battleship.css">
     <script src="battleship.js"></script>
   </head>
-  <body onload="alert('pick your ships, place 10.')">
+  <body onload="alert('pick your ships, place 10.');generateAiShips();generateAimis();">
     <div id="container">
 	    <div id="navigation">
         <a href="index.html"> Home </a> |
@@ -205,7 +205,7 @@
              <div class="box" id="row4col4a" onclick="makeMove('row4col4a','ai')"></div>
              <div class="box" id="row4col5a" onclick="makeMove('row4col5a','ai')"></div>
              <div class="box" id="row4col6a" onclick="makeMove('row4col6a','ai')"></div>
-             <div class="box" id="row4col7a" onclick="makeMove('row3col7a','ai')"></div>
+             <div class="box" id="row4col7a" onclick="makeMove('row4col7a','ai')"></div>
              <div class="box" id="row4col8a" onclick="makeMove('row4col8a','ai')"></div>
              <div class="box" id="row4col9a" onclick="makeMove('row4col9a','ai')"></div>
              <div class="box" id="row4col10a" onclick="makeMove('row4col10a','ai')"></div>
@@ -216,7 +216,7 @@
 						 <div class="box" id="row5col2a" onclick="makeMove('row5col2a','ai')"></div>
 						 <div class="box" id="row5col3a" onclick="makeMove('row5col3a','ai')"></div>
              <div class="box" id="row5col4a" onclick="makeMove('row5col4a','ai')"></div>
-             <div class="box" id="row5col5a" onclick="makeMove('row5col5a',ai')"></div>
+             <div class="box" id="row5col5a" onclick="makeMove('row5col5a','ai')"></div>
              <div class="box" id="row5col6a" onclick="makeMove('row5col6a','ai')"></div>
              <div class="box" id="row5col7a" onclick="makeMove('row5col7a','ai')"></div>
              <div class="box" id="row5col8a" onclick="makeMove('row5col8a','ai')"></div>
@@ -272,11 +272,11 @@
              <div class="box" id="row9col7a" onclick="makeMove('row9col7a','ai')"></div>
              <div class="box" id="row9col8a" onclick="makeMove('row9col8a','ai')"></div>
              <div class="box" id="row9col9a" onclick="makeMove('row9col9a','ai')"></div>
-             <div class="box" id="row9col10a" onclick="makeMove('row9col10a','ai')">x</div>
+             <div class="box" id="row9col10a" onclick="makeMove('row9col10a','ai')"></div>
             
 					</div>
           <div>
-						<div class="box" id="row10col1a" onclick="makeMove('row10col1a','ai')">x</div>
+						<div class="box" id="row10col1a" onclick="makeMove('row10col1a','ai')"></div>
 						 <div class="box" id="row10col2a" onclick="makeMove('row10col2a','ai')"></div>
 						 <div class="box" id="row10col3a" onclick="makeMove('row10col3a','ai')"></div>
              <div class="box" id="row10col4a" onclick="makeMove('row10col4a','ai')"></div>
