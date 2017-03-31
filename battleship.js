@@ -11,14 +11,16 @@ function makeMove(id,player) {
   else{
     if(document.getElementById(id).innerHTML=="X"){
       document.getElementById(id).style.color="red";
-      alert("You hit a boat")
+      alert("You hit a boat");
     }
     else{
       document.getElementById(id).style.color="green"
       document.getElementById(id).innerHTML="O";
-      alert("You failed to hit the boat")
+      alert("You failed to hit the boat");
 
      }
+    
+          generateAimis();
     }
     
 }
@@ -52,7 +54,7 @@ function generateAiShips(){
 
 }
 function placeAimis(mis){
-   document.getElementById(mis).innerHTML="K";
+   document.getElementById(mis).innerHTML="<span style='color:red;'>K</span>";
 }
 function generateAimis(){
    var mis1="row"+getRandomNum()+"col"+getRandomNum();
