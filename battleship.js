@@ -59,5 +59,4 @@ function placeAimis(mis){
 function generateAimis(){
    var mis1="row"+getRandomNum()+"col"+getRandomNum();
    placeAimis(mis1);
-  alert(mis1)
 }
