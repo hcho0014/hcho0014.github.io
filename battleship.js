@@ -1,4 +1,5 @@
 var numberofships = 0;
+var x = 10;
 
 function makeMove(id,player) {
  if(player=="player"){
@@ -21,6 +22,7 @@ function makeMove(id,player) {
      }
     
           generateAimis();
+          Aihitboat();
     }
     
 }
@@ -60,3 +62,13 @@ function generateAimis(){
    var mis1="row"+getRandomNum()+"col"+getRandomNum();
    placeAimis(mis1);
 }
+function Aihitboat(){
+  
+    if(numberofships < x){
+     if(player=="player"){
+      alert("The Computer hit your damn boat");
+      x--;
+       
+    }
+    }
+  }
