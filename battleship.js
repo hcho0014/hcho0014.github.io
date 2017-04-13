@@ -22,7 +22,6 @@ function makeMove(id,player) {
      }
     
           generateAimis();
-          Aihitboat();
     }
     
 }
@@ -54,21 +53,21 @@ function generateAiShips(){
    placeAiShip(ship9);
    placeAiShip(ship10);
 
+
 }
 function placeAimis(mis){
    document.getElementById(mis).innerHTML="<span style='color:red;'>K</span>";
 }
 function generateAimis(){
    var mis1="row"+getRandomNum()+"col"+getRandomNum();
-   placeAimis(mis1);
-}
-function Aihitboat(){
-  
-    if(numberofships < x){
-     if(player=="player"){
-      alert("The Computer hit your damn boat");
-      x--;
-       
-    }
-    }
+     if(document.getElementById(mis1) == box){
+         alert("The computer missed");
+         x--;
+        placeAimis(mis1);
+     }
+      else{
+        alert("The computer hit your damn boat");
+        placeAimis(mis1);
+      }
   }
+//function Aihitboat(){   
