@@ -60,7 +60,7 @@ function placeAimis(mis){
 }
 function generateAimis(){
    var mis1="row"+getRandomNum()+"col"+getRandomNum();
-     if(document.getElementById(mis1) == box){
+     if(document.getElementById(mis1) === ""){
          alert("The computer missed");
          x--;
         placeAimis(mis1);
