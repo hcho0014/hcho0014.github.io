@@ -67,8 +67,7 @@ function placeAimis(mis){
 function generateAimis(){
   if(x>0){
    var mis1="row"+getRandomNum()+"col"+getRandomNum();
-   alert(document.getElementById(mis1).length)
-     if(document.getElementById(mis1).length == undefined){
+     if(document.getElementById(mis1).length === undefined){
          alert("The computer missed");
         placeAimis(mis1);
      }
