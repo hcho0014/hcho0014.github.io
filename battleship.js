@@ -62,8 +62,10 @@ function generateAiShips(){
 
 }
 function placeAimis(mis){
-   document.getElementById(mis).innerHTML="<span style='color:red;'>K</span>";
-
+    document.getElementById(mis).innerHTML="<span style='color:red;'>K</span>";
+}
+function placeAimis1(mis){
+    document.getElementById(mis).innerHTML="<span style='color:green;'>K</span>";
 }
 function generateAimis(){
   if(x>0){
@@ -75,7 +77,7 @@ function generateAimis(){
      }
       else{
         alert("The computer missed");
-        placeAimis(mis1);
+        placeAimis1(mis1);
         
       }
   }
