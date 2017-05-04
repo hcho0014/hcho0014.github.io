@@ -63,18 +63,20 @@ function generateAiShips(){
 }
 function placeAimis(mis){
    document.getElementById(mis).innerHTML="<span style='color:red;'>K</span>";
+
 }
 function generateAimis(){
   if(x>0){
    var mis1="row"+getRandomNum()+"col"+getRandomNum();
-     if(document.getElementById(mis1).length === undefined){
-         alert("The computer missed");
+     if(document.getElementById(mis1).innerHTML === '#'){
+         alert("The computer hit your damn boat");
         placeAimis(mis1);
+         x--;
      }
       else{
-        alert("The computer hit your damn boat");
+        alert("The computer missed");
         placeAimis(mis1);
-        x--;
+        
       }
   }
   else{
