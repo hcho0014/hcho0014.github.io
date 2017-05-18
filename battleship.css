@@ -60,16 +60,16 @@ body{
 	border-radius:25px;
 	padding:10px;
 	background-image: url("https://i.stack.imgur.com/GHqYx.jpg");
+	zoom: 60%;
 }
 
 
 #left{
 	position: absolute;
-    right: 500px;
-    min-width: 300px;
+Â Â Â  right: 500px;
+Â Â Â  min-width: 300px;
 	  max-width: 300px;
-    border: 3px solid #73AD21;
-    padding: 10px;
+Â Â Â  border: 3px solid #73AD21;
+Â Â Â  padding: 10px;
 
 }
-

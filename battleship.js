@@ -4,9 +4,14 @@ var y = 10;
 function makeMove(id,player) {
  if(player=="player"){
   if(numberofships < 10){
-      document.getElementById(id).style.color="black";
-     document.getElementById(id).innerHTML="#";
-    numberofships++; 
+	  if(document.getElementById(id).innerHTML===''){
+		  document.getElementById(id).style.color="black";
+		 document.getElementById(id).innerHTML="*";
+		numberofships++; 
+	  }
+	  else{
+		  alert("You already put a boat there")
+	  }
   }
  }
   else{
@@ -62,15 +67,15 @@ function generateAiShips(){
 
 }
 function placeAimis(mis){
-    document.getElementById(mis).innerHTML="<span style='color:red;'>K</span>";
+    document.getElementById(mis).innerHTML="<span style='color:red;'>X</span>";
 }
 function placeAimis1(mis){
-    document.getElementById(mis).innerHTML="<span style='color:green;'>K</span>";
+    document.getElementById(mis).innerHTML="<span style='color:green;'>O</span>";
 }
 function generateAimis(){
   if(x>0){
    var mis1="row"+getRandomNum()+"col"+getRandomNum();
-     if(document.getElementById(mis1).innerHTML === '#'){
+     if(document.getElementById(mis1).innerHTML === '*'){
          alert("The computer hit your damn boat");
         placeAimis(mis1);
          x--;
