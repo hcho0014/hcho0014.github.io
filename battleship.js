@@ -10,7 +10,7 @@ function makeMove(id,player) {
 		numberofships++; 
 	  }
 	  else{
-		  alert("You already put a boat there")
+		   document.getElementById("results").innerHTML="Already put boat!";
 	  }
   }
  }
@@ -18,13 +18,14 @@ function makeMove(id,player) {
     if(y>0){
     if(document.getElementById(id).innerHTML=="X"){
       document.getElementById(id).style.color="red";
-      alert("You hit a boat");
+       document.getElementById("results").innerHTML="Hit!";
       y--;
+
     }
     else{
       document.getElementById(id).style.color="green"
       document.getElementById(id).innerHTML="O";
-      alert("You failed to hit the boat");
+       document.getElementById("results").innerHTML="Missed!";
 
      }
     }
@@ -76,18 +77,18 @@ function generateAimis(){
   if(x>0){
    var mis1="row"+getRandomNum()+"col"+getRandomNum();
      if(document.getElementById(mis1).innerHTML === '*'){
-         alert("The computer hit your damn boat");
+         document.getElementById("results").innerHTML="Your boat is hit!";
         placeAimis(mis1);
          x--;
      }
       else{
-        alert("The computer missed");
+         document.getElementById("results").innerHTML="The Computer missed!";
         placeAimis1(mis1);
         
       }
   }
   else{
-    alert("Computer won!")
+     document.getElementById("results").innerHTML="The Computer Won!";
     location.reload();
   }
 }

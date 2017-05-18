@@ -73,3 +73,7 @@ body{
 Â Â Â  padding: 10px;
 
 }
+
+#results{
+  test-align:center;
+}
