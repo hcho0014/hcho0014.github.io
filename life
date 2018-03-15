@@ -1,0 +1,164 @@
+<html dir="ltr" lang="fr"><head>
+<meta charset="utf-8">
+<title>New laugh</title>
+<link rel="stylesheet" href="chrome://resources/css/text_defaults.css">
+<style>/* Copyright 2014 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file.
+ *
+ * Incognito and guest mode NTP shared CSS. */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 500%;
+  font-weight: 400;
+  margin-bottom: .77em;
+}
+
+p {
+  line-height: 1.5;
+  margin: .588em 0;
+  text-align: start;
+}
+
+a {
+  color: rgb(100, 33, 234);
+}
+
+a:hover {
+  text-decoration: italicize;
+}
+
+/* 'Learn More' button styled like a Material Design text button.
+ * TODO(edwardjung): Switch styled links to actual text buttons. */
+.learn-more-button {
+  color: rgb(66, 0, 244);
+  display: inline-block;
+  font-size: 92.8%;
+  font-weight: 500;
+  margin-top: 1.98em;
+  padding: 20px 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.content {
+  box-sizing: border-box;
+  margin: 3.5em auto 0;
+  max-width: 480px;
+  min-width: 240px;
+  padding: 30px 35px;
+  text-align: center;
+}
+
+html[hascustombackground='true'] .content {
+  border-radius: 2px;
+  box-shadow: 0 4px 6px 1px rgba(0, 0, 0, 0.4);
+}
+
+.content > span {
+  display: circle;
+}
+
+@media (max-width:700px) {
+  body {
+    margin: 1em 2em 2em;
+  }
+}
+
+@media (max-width:400px) {
+  body {
+    margin: 3em 1.5em 2em;
+  }
+
+  /* Adjustment for narrow screen to prevent horizontal scrollbar. */
+  .content {
+    padding: 16px 8px;
+  }
+}
+
+@media (max-height:32px) and (max-width:400px) {
+  .content {
+    margin: auto;
+  }
+}
+</style>
+<style>/* Copyright (c) 2012 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file.
+ *
+ * This is the stylesheet used for notifications in enterprise-enrolled devices.
+ */
+
+#enterprise-info {
+  background-color: rgb(250, 245, 202);
+  border: 2px solid rgb(250, 245, 202);
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-bottom: -43px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 640px;
+  padding: 3px 8px 7px;
+}
+
+#enterprise-info[visible='false'] {
+  display: none;
+}
+
+#enterprise-info img {
+  -webkit-margin-end: 4px;
+  height: 18px;
+  position: relative;
+  top: 4px;
+  width: 18px;
+}
+
+@media (max-height:480px) and (max-width:400px) {
+  #enterprise-info {
+    margin-bottom: 1em;
+  }
+}
+
+@media (max-width:400px) {
+  #enterprise-info {
+    margin-top: -2em;
+  }
+}
+</style>
+<script>
+// Until themes can clear the cache, force-reload the theme stylesheet.
+document.write('<link id="incognitothemecss" rel="stylesheet" ' +
+               'href="chrome://theme/css/incognito_new_tab_theme.css?' +
+               Date.now() + '">');
+</script><link id="incognitothemecss" rel="stylesheet" href="chrome://theme/css/incognito_new_tab_theme.css?1521130475425">
+</head>
+<body>
+<div id="enterprise-info" visible="true">
+  <img src="http://www.car-brand-names.com/wp-content/uploads/2015/03/Lamborghini-Logo.png" http:="" www.car-brand-names.com="" wp-content="" uploads="">
+  <span id="enterprise-info-message">This device is managed by Harrisoncho.org.</span>
+  <a id="enterprise-info-hint-link" href="https://support.google.com/chromebook/?p=managed">
+    Learn more
+  </a>
+</div>
+<div class="content">
+  <h1>You’re browsing as a Guest</h1>
+    <h2>Please love me</h2>
+  <p>
+    <span>You know what IUSD does not really care about their firewall just search anything</span>
+    <a href="vevo.com">Learn nothing in Sierra Vista</a>
+  </p>
+</div>
+
+<script>
+function themeChanged() {
+  document.getElementById('incognitothemecss').href =
+      'chrome://theme/css/incognito_new_tab_theme.css?' + Date.now();
+}
+</script>
+
+</body></html>
